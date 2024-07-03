@@ -6,7 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        personalize_news: resolve(__dirname, "personalize-news.html"),
+        personalize_news: resolve(__dirname, "personalize_news.html"),
       },
     },
   },
